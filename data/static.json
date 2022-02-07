@@ -1,0 +1,87 @@
+{
+  "follow_me_on": [
+    {
+      "name": "Github",
+      "link": "https://github.com/zikrimansyursyah"
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/zikrimansyursyah/"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://instagram.com/zikrimansyursyah"
+    },
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/zikrimansyursyah"
+    }
+  ],
+  "another_project": [
+    {
+      "name": "Picvul",
+      "link": "https://picvul.com"
+    },
+    {
+      "name": "Flexshop",
+      "link": "https://www.zikrimansyursyah.com/flexshop"
+    },
+    {
+      "name": "Silungkang App",
+      "link": "https://silungkang.id"
+    },
+    {
+      "name": "Trisjunar",
+      "link": "https://trisjunarmegaradha.com"
+    }
+  ],
+  "footer_description": "the awesome project by Zikri Mansyursyah that you can choose your favourite color and use it into your project",
+  "categories": [
+    {
+      "name": "Light",
+      "link": "/pallete/light"
+    },
+    {
+      "name": "Dark",
+      "link": "/pallete/dark"
+    },
+    {
+      "name": "Retro",
+      "link": "/pallete/retro"
+    },
+    {
+      "name": "Cold",
+      "link": "/pallete/cold"
+    },
+    {
+      "name": "Summer",
+      "link": "/pallete/summer"
+    },
+    {
+      "name": "Neon",
+      "link": "/pallete/neon"
+    },
+    {
+      "name": "Pastel",
+      "link": "/pallete/pastel"
+    }
+  ],
+  "sort_by": [
+    {
+      "name": "New",
+      "link": "/pallete/cold"
+    },
+    {
+      "name": "Popular",
+      "link": "/pallete/summer"
+    },
+    {
+      "name": "Random",
+      "link": "/pallete/neon"
+    },
+    {
+      "name": "Related",
+      "link": "/pallete/pastel"
+    }
+  ]
+}

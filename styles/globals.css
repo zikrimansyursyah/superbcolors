@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Rubik";
+  src: url(../public/rubik_base.ttf);
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.glass {
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(42px);
+}
+
+.scale-up-ver-top {
+  -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.color {
+  -webkit-animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    both;
+  animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+
+.color-2 {
+  -webkit-animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    0.2s both;
+  animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s
+    both;
+}
+
+.color-3 {
+  -webkit-animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    0.4s both;
+  animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s
+    both;
+}
+
+.color-4 {
+  -webkit-animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    0.6s both;
+  animation: scale-up-center 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.6s
+    both;
+}
+
+.colors:hover .colors-tooltip {
+  display: block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 100px;
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 130%;
+  left: 50%;
+  margin-left: -50px;
+  -webkit-animation: scale-up-center 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    both;
+  animation: scale-up-center 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1f2937 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.scale-up-hor-right {
+  -webkit-animation: scale-up-hor-right 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-hor-right 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.scale-up-hor-left {
+  -webkit-animation: scale-up-hor-left 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)
+    reverse both;
+  animation: scale-up-hor-left 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) reverse
+    both;
+}
+
+/* Keyframes */
+@-webkit-keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+}
+@keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 100;
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 100;
+  }
+}
+
+@-webkit-keyframes scale-up-hor-right {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+}
+@keyframes scale-up-hor-right {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+}
+
+@-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
