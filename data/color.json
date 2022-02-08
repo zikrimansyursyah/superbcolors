@@ -4,127 +4,148 @@
       "name": "byron",
       "image": "byron_color.webp",
       "liked": 324,
-      "colors": ["#7DE1E9","#FCBEE2","#EC85C9","#C05EAA"]
+      "colors": ["#7DE1E9","#FCBEE2","#EC85C9","#C05EAA"],
+      "categories": "summer"
     },
     {
       "name": "sunday",
       "image": "sunday_color.webp",
       "liked": 721,
-      "colors": ["#F3C5E7","#FCB5D5","#96C8EB","#CA96DE"]
+      "colors": ["#F3C5E7","#FCB5D5","#96C8EB","#CA96DE"],
+      "categories": "summer"
     },
     {
       "name": "morrocan",
       "image": "morrocan_color.webp",
       "liked": 63,
-      "colors": ["#D5D0C8","#51ADAA","#016678","#001B20"]
+      "colors": ["#D5D0C8","#51ADAA","#016678","#001B20"],
+      "categories": "dark"
     },
     {
       "name": "fuchsia",
       "image": "fuchsia_color.webp",
       "liked": 92,
-      "colors": ["#EEE4E8","#5EBEE3","#5EBEE3","#F78379"]
+      "colors": ["#EEE4E8","#5EBEE3","#5EBEE3","#F78379"],
+      "categories": "retro"
     },
     {
       "name": "pearl",
       "image": "pearl_color.webp",
       "liked": 302,
-      "colors": ["#FCFAFB","#5DB3F9","#F9D2F6","#F7A8EB"]
+      "colors": ["#FCFAFB","#5DB3F9","#F9D2F6","#F7A8EB"],
+      "categories": "summer"
     },
     {
       "name": "juniper",
       "image": "juniper_color.webp",
       "liked": 812,
-      "colors": ["#FAE0E0","#F9CCCB","#FAB6B5","#85CBCA"]
+      "colors": ["#FAE0E0","#F9CCCB","#FAB6B5","#85CBCA"],
+      "categories": "light"
     },
     {
       "name": "fitzgerald",
       "image": "fitzgerald_color.webp",
       "liked": 265,
-      "colors": ["#FBE9A9","#2AD9EE","#07B4E3","#0380CF"]
+      "colors": ["#FBE9A9","#2AD9EE","#07B4E3","#0380CF"],
+      "categories": "neon"
     },
     {
       "name": "sky blue",
       "image": "skyblue_color.webp",
       "liked": 402,
-      "colors": ["#E0EFF2","#7BE5F3","#23D5F0","#41A4E2"]
+      "colors": ["#E0EFF2","#7BE5F3","#23D5F0","#41A4E2"],
+      "categories": "light"
     },
     {
       "name": "cormac",
       "image": "cormac_color.webp",
       "liked": 553,
-      "colors": ["#E3EDF5","#BFD9EB","#F3DCE6","#FE8FA0"]
+      "colors": ["#E3EDF5","#BFD9EB","#F3DCE6","#FE8FA0"],
+      "categories": "cold"
     },
     {
       "name": "oceanis",
       "image": "oceanis_color.webp",
       "liked": 275,
-      "colors": ["#C8DBEC","#559ACB","#4497CA","#0683C1"]
+      "colors": ["#C8DBEC","#559ACB","#4497CA","#0683C1"],
+      "categories": "pastel"
     },
     {
       "name": "mabel",
       "image": "mabel_color.webp",
       "liked": 21,
-      "colors": ["#CDC7CE","#7F88C5","#CA78B9","#535BB6"]
+      "colors": ["#CDC7CE","#7F88C5","#CA78B9","#535BB6"],
+      "categories": "cold"
     },
     {
       "name": "ophelia",
       "image": "ophelia_color.webp",
       "liked": 77,
-      "colors": ["#ECE2D9","#D2C4BE","#EFB47C","#71513B"]
+      "colors": ["#ECE2D9","#D2C4BE","#EFB47C","#71513B"],
+      "categories": "retro"
     },
     {
       "name": "minerva",
       "image": "minerva_color.webp",
       "liked": 103,
-      "colors": ["#D4D2DF","#C7BDD9","#C496CC","#B57EBF"]
+      "colors": ["#D4D2DF","#C7BDD9","#C496CC","#B57EBF"],
+      "categories": "cold"
     },
     {
       "name": "shadyoon",
       "image": "shadyoon_color.webp",
       "liked": 233,
-      "colors": ["#FAC2B1","#F8B297","#F29069","#DD7747"]
+      "colors": ["#FAC2B1","#F8B297","#F29069","#DD7747"],
+      "categories": "summer"
     },
     {
       "name": "willow",
       "image": "willow_color.webp",
       "liked": 388,
-      "colors": ["#DFE8F7","#F6DAE9","#888FF5","#FC93AB"]
+      "colors": ["#DFE8F7","#F6DAE9","#888FF5","#FC93AB"],
+      "categories": "retro"
     },
     {
       "name": "stormi",
       "image": "stormi_color.webp",
       "liked": 12,
-      "colors": ["#D9DCDB","#F56B90","#5A97D0","#45323C"]
+      "colors": ["#D9DCDB","#F56B90","#5A97D0","#45323C"],
+      "categories": "dark"
     },
     {
       "name": "ione",
       "image": "ione_color.webp",
       "liked": 85,
-      "colors": ["#FBF3EA","#EAB46D","#C05EAA","#75563C"]
+      "colors": ["#FBF3EA","#EAB46D","#C05EAA","#75563C"],
+      "categories": "retro"
     },
     {
       "name": "everly",
       "image": "everly_color.webp",
       "liked": 63,
-      "colors": ["#EBB8A6","#F09F71","#F9946E","#DA472C"]
+      "colors": ["#EBB8A6","#F09F71","#F9946E","#DA472C"],
+      "categories": "summer"
     },
     {
       "name": "diezel",
       "image": "diezel_color.webp",
       "liked": 78,
-      "colors": ["#F2F0F3","#D5EEF4","#12ACC3","#FC8B73"]
+      "colors": ["#F2F0F3","#D5EEF4","#12ACC3","#FC8B73"],
+      "categories": "neon"
     },
     {
       "name": "everest",
       "image": "everest_color.webp",
       "liked": 123,
-      "colors": ["#D3D4D3","#CBBC9A","#52C5CD","#03A5C9"]
+      "colors": ["#D3D4D3","#CBBC9A","#52C5CD","#03A5C9"],
+      "categories": "light"
     },
     {
       "name": "sparrow",
       "image": "sparrow_color.webp",
       "liked": 206,
-      "colors": ["#95B0C6","#458AB8","#25221D","#080B06"]
+      "colors": ["#95B0C6","#458AB8","#25221D","#080B06"],
+      "categories": "dark"
     }
   ]
 }
