@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CHEVRON_FILL_DOWN } from "../svg";
 
 export default function DropdownMenu({
@@ -17,17 +18,17 @@ export default function DropdownMenu({
         className={`hidden group-hover:absolute group-hover:flex flex-col gap-2 p-3 bg-white border rounded-md text-black text-sm shadow-lg scale-up-ver-top cursor-default group-hover:-translate-x-10`}
       >
         {(list || []).map((li) => (
-          <a
-            target={target}
-            href={li.link}
-            key={li.name}
-            className={`p-2 rounded-md hover:bg-gray-100 ${
-              activeMenu === li.name && "bg-gray-100"
-            }`}
-            rel="noreferrer"
-          >
-            {li.name}
-          </a>
+          <Link key={li.name} href={li.link}>
+            <a
+              target={target}
+              className={`p-2 rounded-md hover:bg-gray-100 ${
+                activeMenu === li.name && "bg-gray-100"
+              }`}
+              rel="noreferrer"
+            >
+              {li.name}
+            </a>
+          </Link>
         ))}
       </div>
     </div>
