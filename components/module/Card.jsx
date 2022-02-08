@@ -13,26 +13,19 @@ export default function Card({ name, image, liked, colors }) {
 
   const copyColor = (ref) => {
     ref = ref.substring(1);
-    navigator.clipboard.writeText(ref).then(
-      function () {
-        console.log("Async: Copying to clipboard was successful!");
-      },
-      function (err) {
-        console.error("Async: Could not copy text: ", err);
-      }
-    );
+    navigator.clipboard.writeText(ref);
   };
 
   return (
     <>
       <div
-        className={`bg-cover bg-center flex flex-col-reverse h-60 rounded-3xl group`}
+        className={`bg-cover bg-center flex flex-col-reverse h-60 rounded-3xl group hover:shadow-lg`}
         style={{
           backgroundImage: `url(/pallete/${image})`,
         }}
       >
         <Link href={`/palette/${name}`}>
-          <a className="glass h-12 pl-6 flex items-center text-white text-xl rounded-b-3xl capitalize">
+          <a className="glass h-12 pl-6 flex items-center text-white text-xl rounded-b-3xl capitalize hover:bg-gray-600">
             {name} Color
           </a>
         </Link>
