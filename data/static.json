@@ -38,32 +38,36 @@
   "footer_description": "the awesome project by Zikri Mansyursyah that you can choose your favourite color and use it into your project",
   "categories": [
     {
+      "name": "All",
+      "link": "/category/all"
+    },
+    {
       "name": "Light",
-      "link": "/pallete/light"
+      "link": "/category/light"
     },
     {
       "name": "Dark",
-      "link": "/pallete/dark"
+      "link": "/category/dark"
     },
     {
       "name": "Retro",
-      "link": "/pallete/retro"
+      "link": "/category/retro"
     },
     {
       "name": "Cold",
-      "link": "/pallete/cold"
+      "link": "/category/cold"
     },
     {
       "name": "Summer",
-      "link": "/pallete/summer"
+      "link": "/category/summer"
     },
     {
       "name": "Neon",
-      "link": "/pallete/neon"
+      "link": "/category/neon"
     },
     {
       "name": "Pastel",
-      "link": "/pallete/pastel"
+      "link": "/category/pastel"
     }
   ],
   "sort_by": [
