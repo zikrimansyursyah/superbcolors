@@ -1,11 +1,13 @@
 import Header from "../Header";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function NotFound() {
   const [val, setVal] = useState(10);
+  const router = useRouter();
 
-  if (val < 1) window.location = "/";
+  if (val < 1) router.back();
 
   useEffect(() => {
     const timer = window.setInterval(() => {

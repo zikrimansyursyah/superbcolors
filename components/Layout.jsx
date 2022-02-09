@@ -1,4 +1,3 @@
-import Header from "./Header";
 import Footer from "./module/Footer";
 import Navbar from "./module/Navbar";
 
